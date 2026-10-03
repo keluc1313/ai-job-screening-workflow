@@ -1,0 +1,13 @@
+interface:
+  display_name: 求职筛选与简历优化
+  short_description: 根据真实经历筛选岗位，解释匹配评分，生成Excel并提出简历修改建议
+  default_prompt: 使用 $screen-job-fit 根据我的简历、招聘材料和筛选条件生成岗位对比Excel。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
